@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    margin: 0px auto;
+    display: block;
+}
+
+h1 {
+    background-color: hsl(18, 66%, 78%);
+    color: hsl(280, 21%, 11%);
+    text-align: center;
+}
+
+.card-container {
+    padding: 1vh 0vh;
+}
+
+.card {
+    width: 80vw;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 1vh;
+    text-align: center;
+    padding: 1vh;
+}
+
+.card img {
+    width: 50vi;
+    display: block;
+    margin: 0px auto;
+}
+
+.card a {
+    display: block;
+    width: 50vi;
+    margin: 0px auto;
+    margin-top: 1vh;
+
+    font-size: x-large;
+    font-weight: bolder;
+    
+    color: #862705;
+    background-color: #eeb975;
+}
+
+h3 {
+    background-color: #ffeeee;
+    color: #ed6c6c;
+    font-size: larger;
+}
+
+ul,
+ol,
+p {
+    background-color: rgb(250, 224, 186);
+    font-size: large;
+    font-weight: 400;
+}
